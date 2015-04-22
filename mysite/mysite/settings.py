@@ -61,7 +61,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'mysite.db',
+        'NAME': '/srv/www/islamic-blog/mysite/temp/mysite.db',
     }
 }
 
